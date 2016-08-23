@@ -103,8 +103,8 @@ sudo service nginx configtest
 echo "Generate new ssh key"
 echo
 echo
-read -p "Email for ssh key: " DOMAIN
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+read -p "Email for ssh key: " EMAIL
+ssh-keygen -t rsa -b 4096 -C "$EMAIL"
 
 
 echo "Copying the ssh key"
