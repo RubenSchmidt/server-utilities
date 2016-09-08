@@ -1,6 +1,4 @@
 #!/bin/bash
-echo "WELCOME KORDE OVER ALLE KORDE EVIG SEIER"
-echo "--------------------------------------------------------------"
 echo "Update apt-get packages"
 echo
 echo
